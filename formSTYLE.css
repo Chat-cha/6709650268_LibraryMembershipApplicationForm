@@ -3,13 +3,13 @@
     box-sizing: border-box;
 }
 
-body {background-color: #dddddd;
+body {background-color: #ced2ea;
 padding: 10px;}
 
 
 header { 
     font-family: 'Courier New', Courier, monospace;
-    background-color: #201c51;
+    background-color: #26215f;
     text-align: center;
 }
 
@@ -57,4 +57,16 @@ form { border-radius: 10px;
        @media screen and (min-width :900px){
        form {font-size: 20px;}
 
-       input {background-color: #ffffff;}
+       input {background-color: #ffffff;
+             font-size: medium;}
+
+       a {font-size: 15px;
+        text-align: center;
+        color: rgb(104, 121, 218);}
+        @media screen and (min-width : 600px){
+            a { font-size: 18px;}
+        }
+        
+        @media screen and (min-width :900px){
+            a {font-size: 20px;}
+        }
