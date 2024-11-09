@@ -58,7 +58,8 @@ form { border-radius: 10px;
        form {font-size: 20px;}
 
        input {background-color: #ffffff;
-             font-size: medium;}
+             font-size: medium;
+            color: #8a88a7;}
 
        a {font-size: 15px;
         text-align: center;
@@ -70,3 +71,5 @@ form { border-radius: 10px;
         @media screen and (min-width :900px){
             a {font-size: 20px;}
         }
+
+      
