@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 
-body {background-color: #dddddd;}
+body {background-color: #dddddd;
+padding: 10px;}
 
 
 header { 
@@ -13,29 +14,47 @@ header {
 }
 
 header h1 {font-weight: 10000;
-    font-size: 10px;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-}
-@media screen and (min-width : 400px){
+           font-size: 10px;
+           color: #ffffff;
+           text-align: center;
+           padding: 15px;
+           }
+           @media screen and (min-width : 400px){
     header h1 { font-size: 20px;}
-}
+           }
 
-@media screen and (min-width :900px){
-    header h1 {font-size: 30px;}
-}
+           @media screen and (min-width :900px){
+           header h1 {font-size: 30px;}
+           }
 
-form {
-    box-sizing: border-box;
-    padding: 20px;
-    width: 100%;
-    font-size: 10px;
-}
+legend {font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        }
+        @media screen and (min-width : 400px){
+            legend { font-size: 18px;}
+        }
+        
+        @media screen and (min-width :900px){
+            legend {font-size: 25px;}
+        }
 
-@media screen and (min-width : 600px){
-    form { font-size: 16px;}
-}
+form { border-radius: 10px;
+       border-color: #000000;
+       background-color: #ffffff;
+       padding: 20px;
+       padding-left: 20px;
+       width: 100%;
+       font-size: 10px;
+       text-align: left;
+       padding-inline-start: 10px;
+       }
 
-@media screen and (min-width :900px){
-    form {font-size: 20px;}
+       @media screen and (min-width : 600px){
+       form { font-size: 16px;}
+       }
+
+       @media screen and (min-width :900px){
+       form {font-size: 20px;}
+
+       input {background-color: #ffffff;}
